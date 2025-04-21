@@ -72,7 +72,7 @@ The maximum [safe][safe-integers] nth [double factorial][double-factorial] when 
 <!-- eslint-disable id-length -->
 
 ```javascript
-var bool = ( FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL === 300 );
+var bool = ( FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL === 29 );
 // returns true
 ```
 
@@ -104,7 +104,7 @@ function factorial2( n ) {
 
 var v;
 var i;
-for ( i = 0; i < 400; i++ ) {
+for ( i = 0; i < 50; i++ ) {
     v = factorial2( i );
     if ( i > FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL ) {
         console.log( 'Unsafe: %d', v );

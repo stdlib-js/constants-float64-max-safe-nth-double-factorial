@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-29)
+## Unreleased (2025-04-21)
 
 <section class="features">
 
@@ -20,6 +20,7 @@
 
 ### Bug Fixes
 
+-   [`170ed65`](https://github.com/stdlib-js/stdlib/commit/170ed65bcf933f7a7642bd735e1d376cbc0ecb6d) - correct `FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL`
 -   [`7a824b1`](https://github.com/stdlib-js/stdlib/commit/7a824b1fee5300e447dcf8278a2397b6ad3a9f1c) - correct `FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL` [(#6379)](https://github.com/stdlib-js/stdlib/pull/6379)
 
 </section>
@@ -32,6 +33,7 @@
 
 <details>
 
+-   [`170ed65`](https://github.com/stdlib-js/stdlib/commit/170ed65bcf933f7a7642bd735e1d376cbc0ecb6d) - **fix:** correct `FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL` _(by Karan Anand)_
 -   [`7a824b1`](https://github.com/stdlib-js/stdlib/commit/7a824b1fee5300e447dcf8278a2397b6ad3a9f1c) - **fix:** correct `FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL` [(#6379)](https://github.com/stdlib-js/stdlib/pull/6379) _(by Karan Anand)_
 -   [`d0ebce3`](https://github.com/stdlib-js/stdlib/commit/d0ebce3a1ed53532f2bee61096fa08400f534437) - **feat:** add `constants/float64/max-safe-nth-double-factorial` [(#2966)](https://github.com/stdlib-js/stdlib/pull/2966) _(by Gunj Joshi, Athan Reines)_
 
