@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-nth-double-factorial@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float64-max-safe-nth-double-factorial/tags). For example,
+
+```javascript
 import FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-nth-double-factorial@v0.1.1-esm/index.mjs';
 ```
 
@@ -76,7 +81,7 @@ var bool = ( FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL === 29 );
 <body>
 <script type="module">
 
-import FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-nth-double-factorial@v0.1.1-esm/index.mjs';
+import FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-nth-double-factorial@esm/index.mjs';
 
 function factorial2( n ) {
     var a;
