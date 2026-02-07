@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-nth-double-factorial@esm/index.mjs';
+import FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-nth-double-factorial@v0.1.1-esm/index.mjs';
 ```
 
 #### FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL
@@ -76,7 +76,7 @@ var bool = ( FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL === 29 );
 <body>
 <script type="module">
 
-import FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-nth-double-factorial@esm/index.mjs';
+import FLOAT64_MAX_SAFE_NTH_DOUBLE_FACTORIAL from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-max-safe-nth-double-factorial@v0.1.1-esm/index.mjs';
 
 function factorial2( n ) {
     var a;
